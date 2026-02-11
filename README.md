@@ -21,7 +21,7 @@ O projeto simula uma vitrine de produtos tecnológicos, destacando habilidades f
 
 🎯 **Objetivo do Projeto**
 
-- Este projeto foi desenvolvido com fins de estudo e portfólio, com o objetivo de:
+Este projeto foi desenvolvido com fins de estudo e portfólio, com o objetivo de:
 
 - Reforçar fundamentos de HTML, CSS e JS
 
