@@ -354,7 +354,7 @@ header nav ul li:hover::after {
     }
 
     .logo {
-        font-size: 1.5rem;
+        font-size: 24px;
     }
 
     .container::before {
@@ -363,7 +363,7 @@ header nav ul li:hover::after {
     }
 
     .product-name {
-        font-size: 2.5rem;
+        font-size: 35px;
     }
 
     .content {
@@ -395,6 +395,85 @@ header nav ul li:hover::after {
         width: 200px;
         height: 200px;
         top: -6%;
-        left: -12%;
+        left: -18%;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        padding: 10px;
+        gap: 60px;
+    }
+
+    header nav ul {
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .container::before {
+        width: 100px;
+        height: 100px;
+    }
+
+    .product-name {
+        font-size: 20px;
+    }
+
+    .content {
+        padding-right: 10px;
+    }
+
+    .product-img {
+        width: 50%;
+    }
+
+    .product-tag {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    .arrow-btn {
+        width: 25px;
+        height: 25px;
+    }
+
+    .circle:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        top: -6%;
+        left: -18%;
+    }
+
+    .dot {
+        width: 30px;
+        height: 3px;
+    }
+
+    .numbers {
+        font-size: 30px;
+    }
+
+    .circle:nth-child(1) {
+        width: 200px;
+        height: 200px;
+        top: -10%;
+        left: -20%;
+    }
+
+    .circle:nth-child(2) {
+        width: 60px;
+        height: 60px;
+        top: 80%;
+        left: 15%;
     }
 }
